@@ -1,0 +1,67 @@
+{
+  "formName": "AgentForm",
+  "questions": [
+
+    {
+      "id": 1,
+      "q": "What is your age?",
+      "type": "number"
+    },
+
+    {
+      "id": 2,
+      "q": "Please select your gender.",
+      "type": "singlechoice",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Male"
+        },
+        {
+          "id": 2,
+          "text": "Female"
+        },
+        {
+          "id": 3,
+          "text": "Other"
+        },
+        {
+        "id": 4,
+        "text": "Prefer not to say"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "q": "What is Your DOB?",
+      "type": "date"
+    },
+
+    {
+      "id":4,
+      "q":"What is Your Fav.. Chocolate?",
+      "type": "dropdown",
+      "choices":[
+        {
+          "id":1,
+          "Choco":"Dairy-Milk"
+        },
+        {
+          "id":2,
+          "Choco":"Bar-One"
+        },
+        {
+        "id":3,
+        "Choco":"Milk-Bar"
+        },
+        {
+          "id":4,
+          "Choco":"Kit-Kat"
+        }
+      ]
+    }
+  ]
+}
+
+

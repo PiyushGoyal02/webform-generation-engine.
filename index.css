@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.que1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Top-Hading{
+  text-align: center;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+.question-hading{
+  text-align: center;
+  margin-top: 13%;
+  font-size: xx-large;
+}
+
+.number-input{
+  padding: 0.5%;
+  width: 20%;
+}
+
+button{
+  padding: 0.5%;
+  width: 10%;
+  margin-top: 3%;
+}
+
+.que3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.date-input{
+  width: 15%;
+  padding: 1%;
+}
+
+.que4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.selecttag{
+  width: 15%;
+  padding: 1%;
+  font-weight: bold;
+}
+
+.que2{
+  margin-top: -6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.submitbutton{
+  position: fixed;
+  left: 85%;
+}
+
+.JSONFile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+/* LogIN LogOut CSS */
+
+.LoginDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  height: 500px;
+  width: 40%;
+  border: 2px solid black;
+  overflow: hidden;
+  background: linear-gradient(120deg, #86a8cf,#fbe4d8,#c38eb4);
+  margin:50px ;
+  opacity: 5;
+}
+
+.container{
+  border: 2px solid black;
+  width: 70%;
+  height: 450px;
+  margin-left: 15%;
+  margin-top:20px;
+}
+
+.hading2{
+  text-align: center;
+  margin: 20px;
+}
+
+.hading3{
+  text-align: center;
+  margin: 20px;
+}
+
+.us{
+  margin-left: 30px;
+}
+
+#use{
+  width: 370px;
+  height: 33px;
+  border-radius: 3px;
+  margin-left: 30px;
+}
+
+.pa{
+  margin-left: 30px;
+}
+
+#pas{
+  width: 370px;
+  height: 33px;
+  border-radius: 3px;
+  margin-left: 30px;
+}
+
+.remen{
+  margin-left: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.for{
+  margin-left: 25%;
+  text-decoration: none;
+}
+
+.log{
+  background-color: #854f6c;
+  padding: 0.8rem 2.3rem;
+  color: whitesmoke;
+  font-size: 18px;
+  box-shadow: 5px 5px 7px 0px #0000003f;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left:40px;
+  width: 80%;
+  height: 40px;
+}
+
+.log::before{
+  content: "";
+  background-color: #1d1a39;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 2s;
+  z-index: -1;
+}
+
+.log:hover::before{
+  transform: scale(1);
+}
+
+.log:hover{
+  transform: scale(90%);
+}
+.notreg{
+  text-align: center;
+}
+
+.not{
+  font-weight: bold;
+}
+
+.reg{
+  text-decoration: none;
+}
